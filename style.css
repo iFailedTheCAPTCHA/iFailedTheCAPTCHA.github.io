@@ -100,11 +100,69 @@ body {
 
 .glass-panel-2 {
   position: absolute;
-  top: 825%;
+  top: 1325%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 750px;
-  height: 9450px;
+  height: 15000px;
+  
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  
+  border: 4px solid var(--neo-black);
+  box-shadow: 16px 16px 0px var(--neo-black);
+  
+  box-shadow: 
+      16px 16px 0px var(--neo-black), /* Brutalist drop shadow */
+      inset 0 1px 0 rgba(255,255,255,0.6), /* Top light edge */
+      inset 0 -3px 6px rgba(0,0,0,0.1); /* Bottom glass weight */
+  
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
+  color: var(--neo-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.glass-panel-3 {
+  position: absolute;
+  top: 175%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 2250px;
+  
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  
+  border: 4px solid var(--neo-black);
+  box-shadow: 16px 16px 0px var(--neo-black);
+  
+  box-shadow: 
+      16px 16px 0px var(--neo-black), /* Brutalist drop shadow */
+      inset 0 1px 0 rgba(255,255,255,0.6), /* Top light edge */
+      inset 0 -3px 6px rgba(0,0,0,0.1); /* Bottom glass weight */
+  
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
+  color: var(--neo-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.glass-panel-4 {
+  position: absolute;
+  top: 175%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 2250px;
   
   background: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(16px);
